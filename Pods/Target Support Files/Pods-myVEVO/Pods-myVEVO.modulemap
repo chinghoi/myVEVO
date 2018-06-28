@@ -1,0 +1,6 @@
+framework module Pods_myVEVO {
+  umbrella header "Pods-myVEVO-umbrella.h"
+
+  export *
+  module * { export * }
+}

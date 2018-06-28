@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E696020342CB78018001F65 /* Pods_myVEVO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06AD63198E332953E73E618 /* Pods_myVEVO.framework */; };
+		E902BD6320E4C78D006DCF67 /* VisaDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E902BD6220E4C78D006DCF67 /* VisaDetailsVC.swift */; };
+		E9C5719020E4696C0090A0E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C5718F20E4696C0090A0E5 /* AppDelegate.swift */; };
+		E9C5719220E4696C0090A0E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C5719120E4696C0090A0E5 /* MainViewController.swift */; };
+		E9C5719520E4696C0090A0E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C5719320E4696C0090A0E5 /* Main.storyboard */; };
+		E9C5719720E4696D0090A0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C5719620E4696D0090A0E5 /* Assets.xcassets */; };
+		E9C5719A20E4696D0090A0E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C5719820E4696D0090A0E5 /* LaunchScreen.storyboard */; };
+		E9C571A220E480B00090A0E5 /* VisaHolderEnquiryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C571A120E480B00090A0E5 /* VisaHolderEnquiryVC.swift */; };
+		E9E6ABD620E545ED00520833 /* BarcodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6ABD520E545ED00520833 /* BarcodeVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		198B2E5A1E058752518AB87C /* Pods-myVEVO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myVEVO.release.xcconfig"; path = "Pods/Target Support Files/Pods-myVEVO/Pods-myVEVO.release.xcconfig"; sourceTree = "<group>"; };
+		41F4B9171C9F3C435846DCA4 /* Pods-myVEVO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myVEVO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myVEVO/Pods-myVEVO.debug.xcconfig"; sourceTree = "<group>"; };
+		C06AD63198E332953E73E618 /* Pods_myVEVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myVEVO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E902BD6220E4C78D006DCF67 /* VisaDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaDetailsVC.swift; sourceTree = "<group>"; };
+		E9C5718C20E4696C0090A0E5 /* myVEVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myVEVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C5718F20E4696C0090A0E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9C5719120E4696C0090A0E5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E9C5719420E4696C0090A0E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9C5719620E4696D0090A0E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9C5719920E4696D0090A0E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9C5719B20E4696D0090A0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C571A120E480B00090A0E5 /* VisaHolderEnquiryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaHolderEnquiryVC.swift; sourceTree = "<group>"; };
+		E9E6ABD520E545ED00520833 /* BarcodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9C5718920E4696C0090A0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E696020342CB78018001F65 /* Pods_myVEVO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F53D45DA7BD5DC193D8EBA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C06AD63198E332953E73E618 /* Pods_myVEVO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC8FC4E03D4672BA96C39B01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41F4B9171C9F3C435846DCA4 /* Pods-myVEVO.debug.xcconfig */,
+				198B2E5A1E058752518AB87C /* Pods-myVEVO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9C5718320E4696C0090A0E5 = {
+			isa = PBXGroup;
+			children = (
+				E9C5718E20E4696C0090A0E5 /* myVEVO */,
+				E9C5718D20E4696C0090A0E5 /* Products */,
+				DC8FC4E03D4672BA96C39B01 /* Pods */,
+				8F53D45DA7BD5DC193D8EBA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9C5718D20E4696C0090A0E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9C5718C20E4696C0090A0E5 /* myVEVO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9C5718E20E4696C0090A0E5 /* myVEVO */ = {
+			isa = PBXGroup;
+			children = (
+				E9C5718F20E4696C0090A0E5 /* AppDelegate.swift */,
+				E9C5719120E4696C0090A0E5 /* MainViewController.swift */,
+				E9C571A120E480B00090A0E5 /* VisaHolderEnquiryVC.swift */,
+				E902BD6220E4C78D006DCF67 /* VisaDetailsVC.swift */,
+				E9E6ABD520E545ED00520833 /* BarcodeVC.swift */,
+				E9C5719320E4696C0090A0E5 /* Main.storyboard */,
+				E9C5719620E4696D0090A0E5 /* Assets.xcassets */,
+				E9C5719820E4696D0090A0E5 /* LaunchScreen.storyboard */,
+				E9C5719B20E4696D0090A0E5 /* Info.plist */,
+			);
+			path = myVEVO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9C5718B20E4696C0090A0E5 /* myVEVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9C5719E20E4696D0090A0E5 /* Build configuration list for PBXNativeTarget "myVEVO" */;
+			buildPhases = (
+				F79B6CD6A510C9B6F8081C7B /* [CP] Check Pods Manifest.lock */,
+				E9C5718820E4696C0090A0E5 /* Sources */,
+				E9C5718920E4696C0090A0E5 /* Frameworks */,
+				E9C5718A20E4696C0090A0E5 /* Resources */,
+				8D388271EC4827748E777C31 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myVEVO;
+			productName = myVEVO;
+			productReference = E9C5718C20E4696C0090A0E5 /* myVEVO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9C5718420E4696C0090A0E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = chinghoi;
+				TargetAttributes = {
+					E9C5718B20E4696C0090A0E5 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = E9C5718720E4696C0090A0E5 /* Build configuration list for PBXProject "myVEVO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9C5718320E4696C0090A0E5;
+			productRefGroup = E9C5718D20E4696C0090A0E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9C5718B20E4696C0090A0E5 /* myVEVO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9C5718A20E4696C0090A0E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C5719A20E4696D0090A0E5 /* LaunchScreen.storyboard in Resources */,
+				E9C5719720E4696D0090A0E5 /* Assets.xcassets in Resources */,
+				E9C5719520E4696C0090A0E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D388271EC4827748E777C31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-myVEVO/Pods-myVEVO-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myVEVO/Pods-myVEVO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F79B6CD6A510C9B6F8081C7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myVEVO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9C5718820E4696C0090A0E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C5719220E4696C0090A0E5 /* MainViewController.swift in Sources */,
+				E9C5719020E4696C0090A0E5 /* AppDelegate.swift in Sources */,
+				E9E6ABD620E545ED00520833 /* BarcodeVC.swift in Sources */,
+				E9C571A220E480B00090A0E5 /* VisaHolderEnquiryVC.swift in Sources */,
+				E902BD6320E4C78D006DCF67 /* VisaDetailsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9C5719320E4696C0090A0E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9C5719420E4696C0090A0E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9C5719820E4696D0090A0E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9C5719920E4696D0090A0E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9C5719C20E4696D0090A0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9C5719D20E4696D0090A0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9C5719F20E4696D0090A0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F4B9171C9F3C435846DCA4 /* Pods-myVEVO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7EHXT73BL;
+				INFOPLIST_FILE = myVEVO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinghoi.myVEVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9C571A020E4696D0090A0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198B2E5A1E058752518AB87C /* Pods-myVEVO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7EHXT73BL;
+				INFOPLIST_FILE = myVEVO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinghoi.myVEVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9C5718720E4696C0090A0E5 /* Build configuration list for PBXProject "myVEVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C5719C20E4696D0090A0E5 /* Debug */,
+				E9C5719D20E4696D0090A0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9C5719E20E4696D0090A0E5 /* Build configuration list for PBXNativeTarget "myVEVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C5719F20E4696D0090A0E5 /* Debug */,
+				E9C571A020E4696D0090A0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9C5718420E4696C0090A0E5 /* Project object */;
+}
