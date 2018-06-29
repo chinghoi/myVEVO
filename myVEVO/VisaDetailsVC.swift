@@ -15,6 +15,7 @@ class VisaDetailsVC: UITableViewController {
         super.viewDidLoad()
         tableView.delegate = self
     }
+    //修改第一个section 中title 的字体颜色
     override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         if section == 0 {
             let header = view as? UITableViewHeaderFooterView

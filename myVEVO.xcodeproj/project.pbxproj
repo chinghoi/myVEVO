@@ -16,7 +16,9 @@
 		E9C5719A20E4696D0090A0E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C5719820E4696D0090A0E5 /* LaunchScreen.storyboard */; };
 		E9C571A220E480B00090A0E5 /* VisaHolderEnquiryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C571A120E480B00090A0E5 /* VisaHolderEnquiryVC.swift */; };
 		E9D850BF20E5B96E000F1E75 /* countries.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9D850BE20E5B96E000F1E75 /* countries.txt */; };
-		E9E6ABD620E545ED00520833 /* BarcodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6ABD520E545ED00520833 /* BarcodeVC.swift */; };
+		E9D850EC20E6169E000F1E75 /* VisaHolderEnquiryTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D850EB20E6169E000F1E75 /* VisaHolderEnquiryTableVC.swift */; };
+		E9D850EE20E62A98000F1E75 /* CountryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D850ED20E62A98000F1E75 /* CountryListVC.swift */; };
+		E9E6ABD620E545ED00520833 /* VisaHolderEnquiryVC0.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6ABD520E545ED00520833 /* VisaHolderEnquiryVC0.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +35,9 @@
 		E9C5719B20E4696D0090A0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9C571A120E480B00090A0E5 /* VisaHolderEnquiryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaHolderEnquiryVC.swift; sourceTree = "<group>"; };
 		E9D850BE20E5B96E000F1E75 /* countries.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = countries.txt; sourceTree = "<group>"; };
-		E9E6ABD520E545ED00520833 /* BarcodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeVC.swift; sourceTree = "<group>"; };
+		E9D850EB20E6169E000F1E75 /* VisaHolderEnquiryTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaHolderEnquiryTableVC.swift; sourceTree = "<group>"; };
+		E9D850ED20E62A98000F1E75 /* CountryListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListVC.swift; sourceTree = "<group>"; };
+		E9E6ABD520E545ED00520833 /* VisaHolderEnquiryVC0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaHolderEnquiryVC0.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +94,10 @@
 				E9C5718F20E4696C0090A0E5 /* AppDelegate.swift */,
 				E9C5719120E4696C0090A0E5 /* MainViewController.swift */,
 				E9C571A120E480B00090A0E5 /* VisaHolderEnquiryVC.swift */,
+				E9E6ABD520E545ED00520833 /* VisaHolderEnquiryVC0.swift */,
+				E9D850EB20E6169E000F1E75 /* VisaHolderEnquiryTableVC.swift */,
+				E9D850ED20E62A98000F1E75 /* CountryListVC.swift */,
 				E902BD6220E4C78D006DCF67 /* VisaDetailsVC.swift */,
-				E9E6ABD520E545ED00520833 /* BarcodeVC.swift */,
 				E9C5719320E4696C0090A0E5 /* Main.storyboard */,
 				E9C5719620E4696D0090A0E5 /* Assets.xcassets */,
 				E9C5719820E4696D0090A0E5 /* LaunchScreen.storyboard */,
@@ -215,8 +221,10 @@
 			files = (
 				E9C5719220E4696C0090A0E5 /* MainViewController.swift in Sources */,
 				E9C5719020E4696C0090A0E5 /* AppDelegate.swift in Sources */,
-				E9E6ABD620E545ED00520833 /* BarcodeVC.swift in Sources */,
+				E9D850EC20E6169E000F1E75 /* VisaHolderEnquiryTableVC.swift in Sources */,
+				E9E6ABD620E545ED00520833 /* VisaHolderEnquiryVC0.swift in Sources */,
 				E9C571A220E480B00090A0E5 /* VisaHolderEnquiryVC.swift in Sources */,
+				E9D850EE20E62A98000F1E75 /* CountryListVC.swift in Sources */,
 				E902BD6320E4C78D006DCF67 /* VisaDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,6 +11,7 @@ import UIKit
 
 class MainViewController: UIViewController {
     
+    @IBOutlet weak var logo: UIImageView!
     @IBOutlet weak var inputPIN: UITextField!
     var PIN = ""
     var inputPINSucces = false
@@ -22,6 +23,8 @@ class MainViewController: UIViewController {
         inputPIN.becomeFirstResponder()
         //数值监听事件
         inputPIN.addTarget(self, action: #selector(isPINCountEqual4), for: .editingChanged)
+        
+        logo.image = #imageLiteral(resourceName: "Image")
     }
     
     override func viewDidAppear(_ animated: Bool) {

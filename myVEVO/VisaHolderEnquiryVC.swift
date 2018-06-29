@@ -42,13 +42,8 @@ class VisaHolderEnquiryVC: FormViewController {
             <<< DateRow(){
                 $0.title = "mm/dd/yyy"
                 $0.value = Date(timeIntervalSinceReferenceDate: 0)
-                $0.cell.tintColor = #colorLiteral(red: 0.6666666865, green: 0.6666666865, blue: 0.6666666865, alpha: 1)
                 print($0.value)
-                }.cellUpdate({ (cell, row) in
-                    //cell.textLabel?.textColor = #colorLiteral(red: 0.937254902, green: 0.937254902, blue: 0.9568627451, alpha: 1)
-                    cell.tintColor = #colorLiteral(red: 0.6666666865, green: 0.6666666865, blue: 0.6666666865, alpha: 1)
-
-                })
+                }
             +++ Section("DOCUMENT DETAILS")
             <<< TextRow(){
                 $0.placeholder = "Document Number"
