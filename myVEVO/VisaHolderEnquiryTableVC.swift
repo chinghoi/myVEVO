@@ -35,12 +35,16 @@ class VisaHolderEnquiryTableVC: UITableViewController {
         documentNumber.clearButtonMode = .whileEditing
         
 
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(off),
+                                               name: NSNotification.Name("off"),
+                                               object: nil)
         
         
         /**
          设置大小
          */
-        NwDatePicker.frame = CGRect.init(x: 0, y: UIScreen.main.bounds.height - 300, width: UIScreen.main.bounds.width, height: 300)
+        NwDatePicker.frame = CGRect.init(x: 0, y: UIScreen.main.bounds.height - 280, width: UIScreen.main.bounds.width, height: 280)
         
         /**
          设置轮廓
@@ -73,6 +77,11 @@ class VisaHolderEnquiryTableVC: UITableViewController {
             countryOfDocument.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         }
     }
+    
+    @objc func off(){
+        NwDatePicker.isHidden = true
+    }
+    
     @objc func chooseDate(_ datePicker:UIDatePicker) {
         let  chooseDate = datePicker.date
         let  dateFormater = DateFormatter.init()

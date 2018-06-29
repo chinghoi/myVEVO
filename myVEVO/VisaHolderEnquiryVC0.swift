@@ -13,11 +13,12 @@ class VisaHolderEnquiryVC0: UIViewController {
         super.viewDidLoad()
         
     }
+
     @IBAction func Submit(_ sender: UIButton) {
         
-//        let visaDetailsVC = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "VisaDetails")
-//
-//        navigationController?.pushViewController(visaDetailsVC, animated: true)
+        //注册关闭 PickerView 通知
+        NotificationCenter.default.post(name: NSNotification.Name("off"), object: nil)
+
         if (definReferenceNumber == "0049251846283" || definReferenceNumber == "EGOF2BQE82") && definDocumentNumber == "EC5116279" && definDate == "06-20-1993" && countrySelected == "Australia"{
             let visaDetailsVC = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "VisaDetails")
             
