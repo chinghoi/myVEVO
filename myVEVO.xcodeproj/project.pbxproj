@@ -15,6 +15,7 @@
 		E9C5719720E4696D0090A0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C5719620E4696D0090A0E5 /* Assets.xcassets */; };
 		E9C5719A20E4696D0090A0E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C5719820E4696D0090A0E5 /* LaunchScreen.storyboard */; };
 		E9C571A220E480B00090A0E5 /* VisaHolderEnquiryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C571A120E480B00090A0E5 /* VisaHolderEnquiryVC.swift */; };
+		E9D850BF20E5B96E000F1E75 /* countries.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9D850BE20E5B96E000F1E75 /* countries.txt */; };
 		E9E6ABD620E545ED00520833 /* BarcodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6ABD520E545ED00520833 /* BarcodeVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		E9C5719920E4696D0090A0E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9C5719B20E4696D0090A0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9C571A120E480B00090A0E5 /* VisaHolderEnquiryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaHolderEnquiryVC.swift; sourceTree = "<group>"; };
+		E9D850BE20E5B96E000F1E75 /* countries.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = countries.txt; sourceTree = "<group>"; };
 		E9E6ABD520E545ED00520833 /* BarcodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 		E9C5718320E4696C0090A0E5 = {
 			isa = PBXGroup;
 			children = (
+				E9D850BE20E5B96E000F1E75 /* countries.txt */,
 				E9C5718E20E4696C0090A0E5 /* myVEVO */,
 				E9C5718D20E4696C0090A0E5 /* Products */,
 				DC8FC4E03D4672BA96C39B01 /* Pods */,
@@ -160,6 +163,7 @@
 				E9C5719A20E4696D0090A0E5 /* LaunchScreen.storyboard in Resources */,
 				E9C5719720E4696D0090A0E5 /* Assets.xcassets in Resources */,
 				E9C5719520E4696C0090A0E5 /* Main.storyboard in Resources */,
+				E9D850BF20E5B96E000F1E75 /* countries.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
