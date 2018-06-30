@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5E696020342CB78018001F65 /* Pods_myVEVO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06AD63198E332953E73E618 /* Pods_myVEVO.framework */; };
 		E902BD6320E4C78D006DCF67 /* VisaDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E902BD6220E4C78D006DCF67 /* VisaDetailsVC.swift */; };
+		E94A256620E711B800FEE3EC /* QYFLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94A256520E711B800FEE3EC /* QYFLoadingView.swift */; };
 		E9C5719020E4696C0090A0E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C5718F20E4696C0090A0E5 /* AppDelegate.swift */; };
 		E9C5719220E4696C0090A0E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C5719120E4696C0090A0E5 /* MainViewController.swift */; };
 		E9C5719520E4696C0090A0E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C5719320E4696C0090A0E5 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		41F4B9171C9F3C435846DCA4 /* Pods-myVEVO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myVEVO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myVEVO/Pods-myVEVO.debug.xcconfig"; sourceTree = "<group>"; };
 		C06AD63198E332953E73E618 /* Pods_myVEVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myVEVO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E902BD6220E4C78D006DCF67 /* VisaDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaDetailsVC.swift; sourceTree = "<group>"; };
+		E94A256520E711B800FEE3EC /* QYFLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYFLoadingView.swift; sourceTree = "<group>"; };
 		E9C5718C20E4696C0090A0E5 /* myVEVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myVEVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C5718F20E4696C0090A0E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9C5719120E4696C0090A0E5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				E9D850EB20E6169E000F1E75 /* VisaHolderEnquiryTableVC.swift */,
 				E9D850ED20E62A98000F1E75 /* CountryListVC.swift */,
 				E902BD6220E4C78D006DCF67 /* VisaDetailsVC.swift */,
+				E94A256520E711B800FEE3EC /* QYFLoadingView.swift */,
 				E9C5719320E4696C0090A0E5 /* Main.storyboard */,
 				E9C5719620E4696D0090A0E5 /* Assets.xcassets */,
 				E9C5719820E4696D0090A0E5 /* LaunchScreen.storyboard */,
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94A256620E711B800FEE3EC /* QYFLoadingView.swift in Sources */,
 				E9C5719220E4696C0090A0E5 /* MainViewController.swift in Sources */,
 				E9C5719020E4696C0090A0E5 /* AppDelegate.swift in Sources */,
 				E9D850EC20E6169E000F1E75 /* VisaHolderEnquiryTableVC.swift in Sources */,

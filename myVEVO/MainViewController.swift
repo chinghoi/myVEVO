@@ -29,7 +29,7 @@ class MainViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
-        let alertController = UIAlertController(title: "Welcome to myVEVO\n", message: "myVEVO allows a visa holder to view and wmail their visa details.\n \n A PIN is required to secure the personal details used to find the visa record. \n \n  The PIN must be entered each time myVEVO is accessed. \n \n Your personal details can be cleared from this device by entering the PIN incorrectly three times.", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "Welcome to myVEVO\n", message: "myVEVO allows a visa holder to view their visa details.\n \n A PIN is required to secure the personal details used to find the visa record. \n \n  The PIN must be entered each time myVEVO is accessed. \n \n Your personal details can be cleared from this device by entering the PIN incorrectly three times.", preferredStyle: .alert)
         let alerAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
         alertController.addAction(alerAction)
         
