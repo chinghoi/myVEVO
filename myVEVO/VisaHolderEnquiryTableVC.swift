@@ -23,7 +23,7 @@ class VisaHolderEnquiryTableVC: UITableViewController {
     
     let NwDatePicker = UIDatePicker.init()
     
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         //数值监听事件
@@ -33,6 +33,10 @@ class VisaHolderEnquiryTableVC: UITableViewController {
         documentNumber.addTarget(self, action: #selector(offDate1), for: .editingDidBegin)
         referenceNumber.clearButtonMode = .whileEditing
         documentNumber.clearButtonMode = .whileEditing
+        
+        let singleTapGesture = UITapGestureRecognizer(target: self, action: #selector(off))
+        tableView.addGestureRecognizer(singleTapGesture)
+        tableView.isUserInteractionEnabled = true
         
 
         NotificationCenter.default.addObserver(self,

@@ -13,6 +13,9 @@ class MainViewController: UIViewController {
     
     @IBOutlet weak var logo: UIImageView!
     @IBOutlet weak var inputPIN: UITextField!
+    
+    @IBOutlet weak var creatPINText: UILabel!
+    
     var PIN = ""
     var inputPINSucces = false
     
@@ -43,6 +46,7 @@ class MainViewController: UIViewController {
             PIN = inputPIN.text!
             inputPIN.text = ""
             inputPINSucces = true
+            creatPINText.text = "Input 4 digit PIN"
         } else if inputPIN.text?.count == 4 && inputPINSucces == true {
             if PIN == inputPIN.text {
                 performSegue(withIdentifier: "a", sender: nil)
@@ -50,6 +54,7 @@ class MainViewController: UIViewController {
             } else {
                 inputPINSucces = false
                 inputPIN.text = ""
+                creatPINText.text = "Creat 4 digit PIN"
                 let alertController = UIAlertController(title: "Incorrect PIN", message: "You have incorrectly entered your Pin three times. For security purposes, your details have been cleated. Please set a new PIN and enter your details to perform an enquiry.", preferredStyle: .alert)
                 let alerAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
                 alertController.addAction(alerAction)
